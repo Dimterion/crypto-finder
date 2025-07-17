@@ -1,16 +1,16 @@
-function About() {
+const AboutPage = () => {
   return (
-    <>
-      <h1 className="text-6xl mb-4">Crypto Finder App</h1>
-      <div className="mb-4 text-2xl font-light">
-        A React app to search for Crypto Currencies and get main information
-        about them.
-        <p className="text-lg text-gray-400">
-          Version <span className="text-white">1.5.5</span>
-        </p>
-      </div>
-    </>
+    <div className="about">
+      <h1>About Crypto Finder</h1>
+      <p>
+        Crypto Finder displays live cryptocurrency data using the CoinGecko API.
+      </p>
+      <p>
+        You can explore the top cryptocurrencies by market cap, filter by name
+        or symbol, and sort them by price, market cap, or 24-hour change.
+      </p>
+    </div>
   );
-}
+};
 
-export default About;
+export default AboutPage;
