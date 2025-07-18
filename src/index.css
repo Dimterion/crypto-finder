@@ -12,6 +12,12 @@ body {
   padding: 2rem;
 }
 
+@media screen and (max-width: 300px) {
+  body {
+    padding: 0.5rem;
+  }
+}
+
 h1 {
   margin-bottom: 2rem;
   font-size: 2rem;
@@ -28,12 +34,24 @@ a {
   gap: 1.5rem;
 }
 
+@media screen and (max-width: 300px) {
+  .grid a {
+    max-width: 95vw;
+  }
+}
+
 .coin-card {
   background-color: #161b22;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s ease;
+}
+
+@media screen and (max-width: 300px) {
+  .coin-card {
+    padding: 1rem;
+  }
 }
 
 .coin-card:hover {
@@ -75,6 +93,12 @@ a {
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 300px) {
+  .top-controls {
+    font-size: 0.75rem;
+  }
+}
+
 .top-controls .filter {
   flex: 1;
 }
@@ -104,6 +128,13 @@ a {
   border: none;
 }
 
+@media screen and (max-width: 300px) {
+  .controls select {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+  }
+}
+
 /* Filter Input */
 .filter {
   margin-bottom: 2rem;
@@ -117,6 +148,12 @@ a {
   background: #1c1f26;
   color: #fff;
   font-size: 1rem;
+}
+
+@media screen and (max-width: 300px) {
+  .filter input {
+    font-size: 0.75rem;
+  }
 }
 
 /* Top Nav */
