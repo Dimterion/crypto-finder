@@ -23,6 +23,10 @@ h1 {
   font-size: 2rem;
 }
 
+h2 {
+  font-size: 1.25rem;
+}
+
 a {
   color: #fff;
   text-decoration: none;
@@ -41,11 +45,15 @@ a {
 }
 
 .coin-card {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
   background-color: #161b22;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s ease;
+  min-height: 260px;
 }
 
 @media screen and (max-width: 300px) {
@@ -121,7 +129,7 @@ a {
 }
 
 .controls select {
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 0.5rem;
   border-radius: 8px;
   background: #1c1f26;
   color: white;
@@ -130,7 +138,6 @@ a {
 
 @media screen and (max-width: 300px) {
   .controls select {
-    padding: 0.5rem;
     font-size: 0.75rem;
   }
 }
