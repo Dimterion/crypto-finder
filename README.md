@@ -1,13 +1,32 @@
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 # Crypto Finder
 
-An application to search for and get information about crypto currencies.
+React / JavaScript app
 
-## Details
+## 📋 Table of Contents
 
-This application was built after remaking one of the previous projects.
+- [Introduction](#introduction)
+- [Tech Stack](#tech-stack)
+- [Contact Info](#contact-info)
 
-The app allows to search for a crypto currency by its name, get a list of all possible ones matching it and see general information about each one (price, overview, markets data, etc).
+## <a id="introduction"></a>🔎 Introduction
 
-## Built with
+Crypto Finder is a crypto currencies search app.
 
-React, React Router, JavaScript, HTML, CSS
+## <a id="tech-stack"></a>⚙️ Tech Stack
+
+- React
+- JavaScript
+- CSS
+- Prettier
+
+## <a id="contact-info"></a>📫 Contact info
+
+### Profile Links ⬇️
+
+<a href="https://linktr.ee/dimterion">
+  <img src="https://raw.githubusercontent.com/Dimterion/Dimterion/1521172f216f8f90db6b3b986c1cbb19994847eb/images/bio_link_image.svg" alt="Dimterion profile links image" />
+</a>
+
+**Note:** Ctrl+Click (Windows/Linux) or Cmd+Click (macOS) the image to open link in a new tab.
