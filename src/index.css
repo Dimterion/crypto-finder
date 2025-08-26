@@ -243,6 +243,11 @@ a {
   color: #555;
 }
 
+.coin-details-info {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 .coin-details-info h3,
 .coin-details-info h4 {
   margin: 10px 0;
@@ -255,6 +260,10 @@ a {
 
 .coin-details-info h4 {
   font-size: 16px;
+}
+
+.coin-details-info span {
+  font-weight: 100;
 }
 
 .coin-details-links {
