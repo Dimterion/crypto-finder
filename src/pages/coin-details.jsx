@@ -140,7 +140,9 @@ const CoinDetailsPage = () => {
               </p>
             )}
             {coin.categories.length > 0 && (
-              <p>Categories: {coin.categories.join(", ")}</p>
+              <p>
+                <strong>Categories:</strong> {coin.categories.join(", ")}
+              </p>
             )}
           </div>
         </>

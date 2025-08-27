@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Routes, Route } from "react-router";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import HomePage from "./pages/home";
 import CoinDetailsPage from "./pages/coin-details";
 import AboutPage from "./pages/about";
@@ -59,6 +60,7 @@ const App = () => {
         <Route path="/coin/:id" element={<CoinDetailsPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
+      <Footer />
     </>
   );
 };
