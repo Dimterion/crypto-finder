@@ -66,6 +66,15 @@ a {
   transform: translateY(-5px);
 }
 
+.coin-card p {
+  font-weight: bold;
+  margin: 0.1rem 0;
+}
+
+.coin-card span {
+  font-weight: normal;
+}
+
 .coin-header {
   display: flex;
   align-items: center;
@@ -171,6 +180,12 @@ a {
   margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 300px) {
+  .top-nav {
+    margin: 1rem;
+  }
+}
+
 .top-nav a {
   color: #58a6ff;
   text-decoration: none;
@@ -263,7 +278,7 @@ a {
 }
 
 .coin-details-info span {
-  font-weight: 100;
+  font-weight: normal;
 }
 
 .coin-details-links {

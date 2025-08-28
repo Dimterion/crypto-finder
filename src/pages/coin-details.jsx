@@ -37,7 +37,11 @@ const CoinDetailsPage = () => {
       </h1>
 
       {loading && <Spinner />}
-      {error && <div className="error">❌ {error}</div>}
+      {error && (
+        <div className="error">
+          ❌ Could not load the page. Please try again in a few minutes.
+        </div>
+      )}
 
       {!loading && !error && (
         <>
